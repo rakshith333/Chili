@@ -1,0 +1,148 @@
+body{
+  background-color: #F3FFFF;
+  font-family: Rubik,sans-serif;
+}
+button{
+  background-color: white;
+  text-align: left;
+}
+
+.chilli-title{
+  font-size: 2em;
+  font-weight: 900;
+}
+.title-img{
+  width: 38%;
+  margin-left: 28em!important;
+  background-image: url(../images/menu.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+}
+.title{
+  text-align: center;
+  background-color: rgba(0,0,0,.46);
+  padding:3em 0 3em 0;
+  color: white;
+}
+
+.navigation{
+  width: 45%;
+  margin-left: 28em!important;
+  cursor: pointer;
+}
+
+.category{
+  background-color:white;
+}
+.category>button{
+  font-size: 0.8em;
+}
+.func-buttons{
+  width: 38%;
+  margin-left: 28em!important;
+  margin-top: 2em;
+
+}
+
+.price-bar{
+  position: relative;
+  left: 3em;
+  bottom: 2.5em;
+}
+.three-buttons{
+  float: right;
+  position: relative;
+  bottom:2.5em;
+}
+
+.salads{
+  width: 38%;
+  margin-left: 28em!important;
+
+}
+.salads>h1{
+  text-align: center;
+  font-size: 1.5em;
+}
+.salads>p{
+  text-align: center;
+  font-size: 0.9em;
+
+}
+h6{
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+
+}
+.inner-salad{
+  background-color: white;
+  margin:1em;
+}
+.salad-img>img{
+
+  width:100%;
+}
+.salad-title{
+
+}
+.salad-description{
+  font-size: 0.8em;
+
+}
+.rating{
+  font-size: 0.8em;
+
+}
+.price{
+  font-weight: 600;
+}
+.old-price{
+  text-decoration: line-through;
+}
+.offer-price{
+  color: red;
+}
+
+.content{
+  display:none;
+}
+
+.copyright{
+  text-align: center;
+}
+.b1{
+  width: 1.0em;
+}
+
+@media only screen and (max-width: 1120px) {
+  body{
+    overflow-x: hidden;
+  }
+  .title-img{
+    width: 100%;
+    margin-left:0!important;
+    background-image: url(../images/menu.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .salads{
+    width: 100%;
+    margin-left:0!important;
+  }
+  .func-buttons{
+    width: 100%;
+    margin-left:0!important;
+    margin-top: 2em;
+  }
+  .navigation{
+    width: 100%;
+    margin-left:0!important;
+    cursor: pointer;
+  }
+  .category>button{
+    font-size: 0.6em;
+  }
+
+}

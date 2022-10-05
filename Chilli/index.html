@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GetMenu|CHILI'S RESTUARANT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link rel="shortcut icon" href="http://sstatic.net/so/favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  </head>
+  <body>
+    <div class="whole-menu">
+      <div class="title-img">
+        <div class="title">
+          <p class="chilli-title">Chilli's Restuarant</p>
+          <p>We offer you burgers made of fresh meat served with delicious fries!</p>
+          <p>Bring your buddies and enjoy delicious burgers!</p>
+        </div>
+      </div>
+      <div class="navigation row">
+        <div class="category col-2">
+          <button type="button" class="but btn btn-light" id="salad" name="button">SALADS</button>
+        </div>
+        <div class="category col-2">
+          <button type="button" class="but btn btn-light ap" id="appetizers" name="button">APPETIZERS</button>
+        </div>
+        <div class="category col-2">
+          <button type="button" class="but btn btn-light" id="burgers" name="button">BURGERS</button>
+        </div>
+        <div class="category col-2">
+          <button type="button" class="but btn btn-light" id="chicken" name="button">CHICKEN</button>
+        </div>
+        <div class="category col-2">
+          <button type="button" class="but btn btn-light" id="beverages" name="button">BEVERAGES</button>
+        </div>
+      </div>
+      <div class="func-buttons">
+        <p>Sort:</p>
+        <select class="price-bar" name="">
+          <option value="0">Default</option>
+          <option value="1">Rate</option>
+          <option value="2" class="increase">Price(low to high)</option>
+          <option value="3">Price (high to low)</option>
+
+        </select>
+        <div class="three-buttons">
+          <img src="images/share.png" class="b1" type="button" alt="">
+          <img src="images/lines.png" type="button" alt="">
+          <i class="fa fa-th-large"></i>
+        </div>
+      </div>
+    
+      <div class="salads" id="saladdiv1">
+        <h1>All Salads</h1>
+        <p>Order a full salad as an entree or a side salad to go with your meal. Pick from various salad combos for lunch or dinner.</p>
+        <div class="row inner-salad">
+          <div class="col-3 salad-img">
+            <img src="images/salad1.jpg" alt="">
+          </div>
+          <div class="col-9">
+            <h5 class="salad-title">Chili & House Salad</h5>
+            <h6 class="salad-description">This colorful salad is fast and easy to make. Don't let the short ingredient list fool you, it's loaded with flavor.</h6>
+            <h6 class="rating">5.0</h6>
+            <h6 class="price">₪5.90</h6>
+          </div>
+        </div>
+        <div class="row inner-salad">
+          <div class="col-3 salad-img">
+            <img src="images/salad2.jpg" alt="">
+          </div>
+          <div class="col-9">
+            <h5 class="salad-title">Soup & House Salad</h5>
+            <h6 class="salad-description">This colorful salad is fast and easy to make. Don't let the short ingredient list fool you, it's loaded with flavor.</h6>
+            <span class="price old-price">₪6.90</span>
+            <span class="price offer-price ml-2 mr-2">₪6.45</span>
+          </div>
+        </div>
+        <div class="row inner-salad">
+          <div class="col-3 salad-img">
+            <img src="images/salad3.jpg" alt="">
+          </div>
+          <div class="col-9">
+            <h5 class="salad-title">Fiesta Chopped Salad</h5>
+            <h6 class="salad-description">This colorful salad is fast and easy to make. Don't let the short ingredient list fool you, it's loaded with flavor.</h6>
+            <h6 class="rating">5.0</h6>
+            <span class="price old-price">₪15.90</span>
+            <span class="price offer-price ml-2 mr-2">₪14.59</span>
+          </div>
+        </div>
+        <div class="row inner-salad">
+          <div class="col-3 salad-img">
+            <img src="images/salad4.jpg" alt="">
+          </div>
+          <div class="col-9">
+            <h5 class="salad-title">Mango Avocado Salad</h5>
+            <h6 class="salad-description">This colorful salad is fast and easy to make. Don't let the short ingredient list fool you, it's loaded with flavor.</h6>
+            <h6 class="rating">5.0</h6>
+            <span class="price old-price">₪12.90</span>
+            <span class="price offer-price ml-2 mr-2">₪12.29</span>
+          </div>
+        </div>
+        <div class="row inner-salad">
+          <div class="col-3 salad-img">
+            <img src="images/salad5.jpg" alt="">
+          </div>
+          <div class="col-9">
+            <h5 class="salad-title">Asian Avocado Salad</h5>
+            <h6 class="salad-description">This colorful salad is fast and easy to make. Don't let the short ingredient list fool you, it's loaded with flavor.</h6>
+            <h6 class="rating">5.0</h6>
+            <span class="price old-price">₪9.90</span>
+            <span class="price offer-price ml-2 mr-2">₪9.59</span>
+          </div>
+        </div>
+    </div>
+      <div class="salads content" id="saladdiv">
+        <h1>All Salads</h1>
+        <p>Order a full salad as an entree or a side salad to go with your meal. Pick from various salad combos for lunch or dinner.</p>
+        <div class="row inner-salad s1">
+          <div class="col-3 salad-img">
+            <img src="images/salad1.jpg" alt="">
+          </div>
+          <div class="col-9">
+            <h5 class="salad-title">Chili & House Salad</h5>
+            <h6 class="salad-description">This colorful salad is fast and easy to make. Don't let the short ingredient list fool you, it's loaded with flavor.</h6>
+            <h6 class="rating">5.0</h6>
+            <h6 class="price">₪5.90</h6>
+          </div>
+        </div>
+        <div class="row inner-salad s2">
+          <div class="col-3 salad-img">
+            <img src="images/salad2.jpg" alt="">
+          </div>
+          <div class="col-9">
+            <h5 class="salad-title">Soup & House Salad</h5>
+            <h6 class="salad-description">This colorful salad is fast and easy to make. Don't let the short ingredient list fool you, it's loaded with flavor.</h6>
+            <span class="price old-price">₪6.90</span>
+            <span class="price offer-price ml-2 mr-2">₪6.45</span>
+          </div>
+        </div>
+        <div class="row inner-salad s3">
+          <div class="col-3 salad-img">
+            <img src="images/salad3.jpg" alt="">
+          </div>
+          <div class="col-9">
+            <h5 class="salad-title">Fiesta Chopped Salad</h5>
+            <h6 class="salad-description">This colorful salad is fast and easy to make. Don't let the short ingredient list fool you, it's loaded with flavor.</h6>
+            <h6 class="rating">5.0</h6>
+            <span class="price old-price">₪15.90</span>
+            <span class="price offer-price ml-2 mr-2">₪14.59</span>
+          </div>
+        </div>
+        <div class="row inner-salad s4">
+          <div class="col-3 salad-img">
+            <img src="images/salad4.jpg" alt="">
+          </div>
+          <div class="col-9">
+            <h5 class="salad-title">Mango Avocado Salad</h5>
+            <h6 class="salad-description">This colorful salad is fast and easy to make. Don't let the short ingredient list fool you, it's loaded with flavor.</h6>
+            <h6 class="rating">5.0</h6>
+            <span class="price old-price">₪12.90</span>
+            <span class="price offer-price ml-2 mr-2">₪12.29</span>
+          </div>
+        </div>
+        <div class="row inner-salad s5">
+          <div class="col-3 salad-img">
+            <img src="images/salad5.jpg" alt="">
+          </div>
+          <div class="col-9">
+            <h5 class="salad-title">Asian Avocado Salad</h5>
+            <h6 class="salad-description">This colorful salad is fast and easy to make. Don't let the short ingredient list fool you, it's loaded with flavor.</h6>
+            <h6 class="rating">5.0</h6>
+            <span class="price old-price">₪9.90</span>
+            <span class="price offer-price ml-2 mr-2">₪9.59</span>
+          </div>
+        </div>
+    </div>
+    <div class="salads content" id="appetizersdiv">
+      <h1>All Appetizers</h1>
+      <p>Start your meal with one of our famous fresh-to-order appetizers you know and love. You're sure to find something everyone will enjoy!.</p>
+      <div class="row inner-salad">
+        <div class="col-3 salad-img">
+          <img src="images/app1.jpg" alt="">
+        </div>
+        <div class="col-9">
+          <h5 class="salad-title">Boneless Wings</h5>
+          <h6 class="salad-description">Hand-tossed in choice of sauce, celery, dipping sauce.</h6>
+          <span class="price offer-price ml-2 mr-2">₪5.90</span>
+        </div>
+      </div>
+      <div class="row inner-salad">
+        <div class="col-3 salad-img">
+          <img src="images/app2.jpg" alt="">
+        </div>
+        <div class="col-9">
+          <h5 class="salad-title">Loaded Boneless Wings</h5>
+          <h6 class="salad-description">Smothered in white queso, shredded cheese, bacon. Served with house-made ranch.</h6>
+          <span class="price offer-price ml-2 mr-2">₪6.45</span>
+        </div>
+      </div>
+      <div class="row inner-salad">
+        <div class="col-3 salad-img">
+          <img src="images/app3.jpg" alt="">
+        </div>
+        <div class="col-9">
+          <h5 class="salad-title">Fried Pickles</h5>
+          <h6 class="salad-description">Served with house-made ranch.</h6>
+          <span class="price offer-price ml-2 mr-2">₪15.90</span>
+        </div>
+      </div>
+      <div class="row inner-salad">
+        <div class="col-3 salad-img">
+          <img src="images/app4.jpg" alt="">
+        </div>
+        <div class="col-9">
+          <h5 class="salad-title">Chips & Salsa</h5>
+          <h6 class="salad-description">Extra-thin authentic corn tostada chips made fresh daily. Served with fresh salsa</h6>
+          <span class="price offer-price ml-2 mr-2">₪12.90</span>
+        </div>
+      </div>
+      <div class="row inner-salad">
+        <div class="col-3 salad-img">
+          <img src="images/app5.jpg" alt="">
+        </div>
+        <div class="col-9">
+          <h5 class="salad-title">White Spinach Queso</h5>
+          <h6 class="salad-description">With pico, guacamole, cilantro. Served with chips & salsa.</h6>
+          <h6 class="rating">2.0</h6>
+          <span class="price offer-price ml-2 mr-2">₪9.90</span>
+        </div>
+      </div>
+  </div>
+
+  <div class="salads content" id="burgersdiv">
+    <h1>All Burgers</h1>
+    <p>Choose a hand-crafted, made-to-order Burger from our menu. We handsmash all our burgers to lock in flavor, then serve them up on a delicious, toasted brioche bun. Served with fries.</p>
+    <div class="row inner-salad">
+      <div class="col-3 salad-img">
+        <img src="images/bur1.jpg" alt="">
+      </div>
+      <div class="col-9">
+        <h5 class="salad-title">Queso Burger</h5>
+        <h6 class="salad-description">Say “cheese!” This half-pound patty comes smothered in white queso, crunchy tortilla strips & pico.</h6>
+        <span class="price offer-price ml-2 mr-2">₪5.90</span>
+      </div>
+    </div>
+    <div class="row inner-salad">
+      <div class="col-3 salad-img">
+        <img src="images/bur2.jpg" alt="">
+      </div>
+      <div class="col-9">
+        <h5 class="salad-title">Bacon Rancher Burger</h5>
+        <h6 class="salad-description">Two beef patties, six slices of bacon, house-made ranch, American cheese, with sauteed onions, pickles.</h6>
+        <span class="price offer-price ml-2 mr-2">₪6.90</span>
+      </div>
+    </div>
+    <div class="row inner-salad">
+      <div class="col-3 salad-img">
+        <img src="images/bur3.jpg" alt="">
+      </div>
+      <div class="col-9">
+        <h5 class="salad-title">BBQ Brisket Burger</h5>
+        <h6 class="salad-description">Brisket, house BBQ, cheddar, pickles, coleslaw.</h6>
+        <span class="price offer-price ml-2 mr-2">₪15.90</span>
+      </div>
+    </div>
+    <div class="row inner-salad">
+      <div class="col-3 salad-img">
+        <img src="images/bur4.jpg" alt="">
+      </div>
+      <div class="col-9">
+        <h5 class="salad-title">Mushroom Swiss Burger</h5>
+        <h6 class="salad-description">There’s so mush-room in our hearts for this one. Topped with sauteed onions, mushrooms, Swiss, lettuce, tomato & garlic aioli.</h6>
+        <span class="price offer-price ml-2 mr-2">₪12.90</span>
+      </div>
+    </div>
+    <div class="row inner-salad">
+      <div class="col-3 salad-img">
+        <img src="images/bur5.jpg" alt="">
+      </div>
+      <div class="col-9">
+        <h5 class="salad-title">Big Mouth Bites Burger</h5>
+        <h6 class="salad-description">4 mini burgers with bacon, American cheese, sauteed onions, house-made ranch.</h6>
+        <span class="price offer-price ml-2 mr-2">₪9.90</span>
+      </div>
+    </div>
+</div>
+<div class="salads content" id="chickendiv">
+  <h1>All Chicken</h1>
+  <p>Our hand-battered chicken are made with 100% all natural white meat.</p>
+  <div class="row inner-salad">
+    <div class="col-3 salad-img">
+      <img src="images/chi1.jpg" alt="">
+    </div>
+    <div class="col-9">
+      <h5 class="salad-title">Cajun chicken drumsticks with charred pineapple wedges</h5>
+      <h6 class="salad-description">Coat chicken drumsticks with a simple Cajun spice rub, then grill or barbecue with fresh, charred pineapple wedges for delicious results.</h6>
+      <span class="price offer-price ml-2 mr-2">₪5.90</span>
+    </div>
+  </div>
+  <div class="row inner-salad">
+    <div class="col-3 salad-img">
+      <img src="images/chi2.jpg" alt="">
+    </div>
+    <div class="col-9">
+      <h5 class="salad-title">Harissa and honey chicken with almond tabbouleh</h5>
+      <h6 class="salad-description">Learn how to spatchcock a chicken with this sticky and spicy recipe, complete with pickled cabbage and a nutty almond tabbouleh.</h6>
+      <span class="price offer-price ml-2 mr-2">₪6.90</span>
+    </div>
+  </div>
+  <div class="row inner-salad">
+    <div class="col-3 salad-img">
+      <img src="images/chi3.jpg" alt="">
+    </div>
+    <div class="col-9">
+      <h5 class="salad-title">Crispy Honey-Chipotle Chicken</h5>
+      <h6 class="salad-description">Served with fries, corn on the cob and ranch.</h6>
+      <span class="price offer-price ml-2 mr-2">₪15.90</span>
+    </div>
+  </div>
+  <div class="row inner-salad">
+    <div class="col-3 salad-img">
+      <img src="images/chi4.jpg" alt="">
+    </div>
+    <div class="col-9">
+      <h5 class="salad-title">Original Chicken Crispers</h5>
+      <h6 class="salad-description">Served with fries, corn on the cob and honey mustard.</h6>
+      <span class="price offer-price ml-2 mr-2">₪12.90</span>
+    </div>
+  </div>
+  <div class="row inner-salad">
+    <div class="col-3 salad-img">
+      <img src="images/chi5.jpg" alt="">
+    </div>
+    <div class="col-9">
+      <h5 class="salad-title">Five Crispy Drumsticks</h5>
+      <h6 class="salad-description">Served with 1 side, celery, and choice of blue cheese or housemade ranch dressing.</h6>
+      <span class="price offer-price ml-2 mr-2">₪9.90</span>
+    </div>
+  </div>
+</div>
+<div class="salads content" id="beveragesdiv">
+  <h1>All Beverages</h1>
+  <p>Enjoy our house-made lemonades, teas & soft drinks.</p>
+  <div class="row inner-salad">
+    <div class="col-3 salad-img">
+      <img src="images/bev1.jpg" alt="">
+    </div>
+    <div class="col-9">
+      <h5 class="salad-title">Fresh raspberry and lemon fizz</h5>
+      <h6 class="salad-description">A refreshing drink to serve al fresco whether you’re having a party or a barbecue, or you’re just relaxing in the garden.</h6>
+      <span class="price offer-price ml-2 mr-2">₪5.90</span>
+    </div>
+  </div>
+  <div class="row inner-salad">
+    <div class="col-3 salad-img">
+      <img src="images/bev2.jpg" alt="">
+    </div>
+    <div class="col-9">
+      <h5 class="salad-title">Long Island iced tea</h5>
+      <h6 class="salad-description">Iced tea is full of flavour with a tart citrus finish – perfect as mocktail or mixer.</h6>
+      <span class="price offer-price ml-2 mr-2">₪6.90</span>
+    </div>
+  </div>
+  <div class="row inner-salad">
+    <div class="col-3 salad-img">
+      <img src="images/bev3.jpg" alt="">
+    </div>
+    <div class="col-9">
+      <h5 class="salad-title">Lemon verbena and vanilla cordial</h5>
+      <h6 class="salad-description">This homemade cordial for grown-ups uses herbs, lemon verbena, lemon juice and edible flowers to create a sophisticated cooler for spring and summer days.</h6>
+      <span class="price offer-price ml-2 mr-2">₪15.90</span>
+    </div>
+  </div>
+  <div class="row inner-salad">
+    <div class="col-3 salad-img">
+      <img src="images/bev4.jpg" alt="">
+    </div>
+    <div class="col-9">
+      <h5 class="salad-title">Peach Smoothie</h5>
+      <h6 class="salad-description">This peach smoothie is juicy and refreshing and provides a burst of delicious flavor! The texture is just perfect, the color is beautiful and the taste is something everyone in your family will go crazy for!</h6>
+      <span class="price offer-price ml-2 mr-2">₪12.90</span>
+    </div>
+  </div>
+  <div class="row inner-salad">
+    <div class="col-3 salad-img">
+      <img src="images/bev5.jpg" alt="">
+    </div>
+    <div class="col-9">
+      <h5 class="salad-title">Mango Smoothie</h5>
+      <h6 class="salad-description">Mango Smoothie is a cool refreshing summertime treat you are going to love! Sweetened with banana and honey, this is summer in a glass!</h6>
+      <span class="price offer-price ml-2 mr-2">₪9.90</span>
+    </div>
+  </div>
+</div>
+
+    <div class="copyright">
+        <p>Powered by © 2022GetMenu</p>
+        <p><a href="www.getmenu.ps">www.getmenu.ps</a></p>
+      </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="js/index.js" charset="utf-8" type="text/javascript"></script>
+  </body>
+</html>
